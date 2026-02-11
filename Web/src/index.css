@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; background: #f6f8fa; color: #222; }
+.layout { min-height: 100vh; display: flex; flex-direction: column; }
+.header { background: #1a237e; color: #fff; padding: 18px 0 12px 0; box-shadow: 0 2px 8px #0001; }
+.brand { font-size: 1.5rem; font-weight: 600; margin-left: 32px; display: inline-block; }
+.header nav { display: inline-block; float: right; margin-right: 32px; }
+.header nav a { color: #fff; text-decoration: none; margin-left: 24px; font-weight: 500; transition: color 0.2s; }
+.header nav a:hover { color: #ffeb3b; }
+.main-content { flex: 1; padding: 32px 16px 24px 16px; max-width: 480px; margin: 0 auto; }
+.footer { background: #222; color: #fff; text-align: center; padding: 12px 0; font-size: 0.95rem; }
+.welcome { text-align: center; margin-top: 48px; }
+form { background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0002; max-width: 400px; margin: 0 auto; padding: 32px 24px; display: flex; flex-direction: column; gap: 14px; }
+form h2 { margin-bottom: 12px; }
+input { padding: 10px; font-size: 15px; border: 1px solid #bbb; border-radius: 4px; }
+input:focus { border-color: #1a237e; outline: none; }
+button { padding: 10px 0; font-size: 15px; background: #1a237e; color: #fff; border: none; border-radius: 4px; font-weight: 600; cursor: pointer; transition: background 0.2s; }
+button:hover { background: #3949ab; }
+.error { color: #b00020; font-size: 14px; margin-top: 4px; }
+.success { color: #0b8043; font-size: 14px; margin-top: 4px; }
+.profile { background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0002; padding: 24px 18px; max-width: 400px; margin: 0 auto; }
+.profile p { margin: 8px 0; }
